@@ -1,0 +1,35 @@
+#L-Arabinofuranose###########
+#p=ROH-(O1,C1)-0aD
+
+
+##L-A ->agal#####
+#p=ROH-(O1,C1)-3OA-(O3,C1)-0aD
+
+
+#chain E works
+#p=ROH-(O1,C1)-WOA<branch>-(O3,C1)-0aD
+#branch=p.4:-(O4,C1,<a>)-0OA
+#a=O4,C1,[C4 O4 C1 O5 85.00 C5 C4 O4 C1 140.00]
+#b=C3,O1,[C4 C3 O1 C1 86.00 C3 O1 C1 O4 -163.00]
+
+##chain E1 
+#p=ROH-(O1,C1)-4OA-(O4,C1,<a>)-WOA<branch>-(O3,C1,<b>)-0aD
+#branch=p.4:-(O4,C1,<a>)-0OA
+#a=O4,C1,[C4 O4 C1 O5 85.00 C5 C4 O4 C1 140.00]
+#b=O3,C1,[C4 C3 O3 C1 86.00 C3 O3 C1 O4 -163.00]
+
+
+##chain F 
+#p=ROH-(O1,C1)-4OA-(O4,C1,<a>)-WOA<brancha>-(O4,C1,<a>)-4OA-(O4,C1,<a>)-WOA<branch>-(O3,C1,<b>)-0aD
+#brancha=p.4:-(O3,C1,<b>)-0aD
+#branch=p.4:-(O4,C1,<a>)-0OA
+#a=O4,C1,[C4 O4 C1 O5 85.00 C5 C4 O4 C1 140.00]
+#b=O3,C1,[C4 C3 O3 C1 86.00 C3 O3 C1 O4 -163.00]
+
+##chain F 
+p=ROH-(O1,C1)-4OA-(O4,C1,<a>)-TOA<brancha branchb>-(O4,C1,<a>)-4OA-(O4,C1,<a>)-WOA<branch>-(O3,C1,<b>)-0aD
+brancha= (O3,C1,<b>)-0aD branchb=(C1,O2)-0aD
+branch= (O4,C1,<a>)-0OA
+a=O4,C1,[C4 O4 C1 O5 85.00 C5 C4 O4 C1 140.00]
+b=O3,C1,[C4 C3 O3 C1 86.00 C3 O3 C1 O4 -163.00]
+c=O1,C2,[C3 C2 O1 C1 -76.75 C2 O1 C1 O4 -46.70]
