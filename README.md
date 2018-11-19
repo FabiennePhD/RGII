@@ -1,5 +1,5 @@
 # RGII
-source activate doglycans
+source activate doglycans 
 seq_file.seq -> 
 adding subsequent side chains to HGB (see nature paper in this repository for side chain definitions).
 I have added side chain E (E1.pdb) and started on side chain F (F.pdb works). 
